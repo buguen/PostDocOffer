@@ -25,13 +25,16 @@ The second main objective is the hardware (HW) implementation of a M-MIMO system
 In particular, M5HESTIA project will optimise these different analogue and digital processing techniques by using the proposed channel model and by taking into account real antennas characteristics that will be also developed in the project.
 
 ## Description of the research project:
+
 The current offer is for working on the channel modeling task of the M5HESTIA project. The main task will be to propose and implement a mmW M-MIMO channel model based on extensive channel measurements campaign realized during the project. The approach will be based on deterministic and/or quasi deterministic approaches aiming to produce test vector for PHY layer simulation. The effect of the environment on the channel angular structure and its coherence over time will be investigated. The impact of the diffused energy will also be investigated from the measurement data and depolarization estimation.
 
 The model should be able to take as much as possible the effect of the base-band/RF architecture. The proposed channel model (or simulator) should allow addressing a wide range antenna specifications and architectures in order to figure out which is the best overall architecture for mmW. In particular this includes the antenna coupling effect and specification of the separation of baseband and RF functions number of baseband fluxes number of antennas, and switching or phasing network. 
 The effect of the environment on the channel angular structure (in particular elevation spread) and its coherence over time will be investigated. The model should be scalable toward larger problems (typically more antennas) while being validated over a smaller set of antennas from the measurement campaign performed during the project. 
 The deterministic or quasi-deterministic simulator will implement, jointly with channel simulations, the vehicular and human mobility in order to assess the effect on the overall system performance. The effects of flashing rays caused by the blockage from subject and object mobility will be investigated. 
 
-## Expected candidate Profile :  Ph.D in propagation modeling or digital communications with a good proficiency in mathematics and statistics and computational implementation of channel models. Python language proficiency is very welcome. 
+## Expected candidate Profile :  
+
+Ph.D in propagation modeling or digital communications with a good proficiency in mathematics and statistics and computational implementation of channel models. Python language proficiency is very welcome. 
 
 ## Location : IETR - UMR 6164 - Campus de Beaulieu Bâtiment 11D - Rennes - France 
 ## Expected start date : October / November 2016 
