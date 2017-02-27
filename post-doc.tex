@@ -1,0 +1,174 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Long Lined Cover Letter
+% LaTeX Template
+% Version 1.0 (1/6/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Matthew J. Miller
+% http://www.matthewjmiller.net/howtos/customized-cover-letter-scripts/
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,stdletter,dateno,sigleft]{newlfm} % Extra options: 'sigleft' for a left-aligned signature, 'stdletternofrom' to remove the from address, 'letterpaper' for US letter paper - consult the newlfm class manual for more options
+
+\usepackage{charter} % Use the Charter font for the document text
+\usepackage{url}
+\usepackage{hyperref}
+\newsavebox{\Luiuc}\sbox{\Luiuc}{\parbox[b]{1.75in}{\vspace{0.5in}
+\includegraphics[width=1.2\linewidth]{logo.png}}} % Company/institution logo at the top left of the page
+\makeletterhead{Uiuc}{\Lheader{\usebox{\Luiuc}}}
+
+\newlfmP{sigsize=50pt} % Slightly decrease the height of the signature field
+%\newlfmP{addrfromphone} % Print a phone number under the sender's address
+%\newlfmP{addrfromemail} % Print an email address under the sender's address
+%\PhrPhone{Phone} % Customize the "Telephone" text
+\PhrEmail{Post Doctoral Offer at IETR} % Customize the "E-mail" text
+
+\lthUiuc % Print the company/institution logo
+
+%----------------------------------------------------------------------------------------
+%	YOUR NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+%\namefrom{Post Doctoral Offer at IETR} % Name
+
+%\addrfrom{
+%\today\\[12pt] % Date
+%123 Broadway \\ % Address
+%City, State 12345
+%}
+
+%\phonefrom{(000) 111-1111} % Phone number
+
+%
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE AND GREETING/CLOSING
+%----------------------------------------------------------------------------------------
+
+%\greetto{Dear Mrs. Smith,} % Greeting text
+%\closeline{Sincerely yours,} % Closing text
+
+%\nameto{Mrs. Jane Smith} % Addressee of the letter above the to address
+
+%\addrto{
+%Recruitment Officer \\ % To address
+%The Corporation \\
+%123 Pleasant Lane \\
+%City, State 12345
+%}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\begin{newlfm}
+\vspace{-4cm}
+\begin{center}
+{ \Large Post Doctoral Offer on 5G Radio Channel Modeling } 
+\end{center}
+
+{\bf General Context}
+
+This offer holds in the framework of the CominLabs project {\tt \href{http://www.m5hstia.cominlabs.ueb.eu/}{M5HESTIA}} on the topic of
+mmW Multi­user Massive MIMO Hybrid Equipments for Sounding, Transmissions and HW ImplementAtion.
+
+mmW is an extremely attractive enabler for the next generation(5G) mobile communications.
+
+Operation in these high frequency bands offers very large bandwidths
+is one of the simplest ways to increase system capacity, but also
+leads to device miniaturisation thanks to the small related wavelength.
+In this context, M­MIMO systems, with up to hundreds of radiating
+elements at the radio Access Point (AP), are intended to achieve
+very high data rates for multiple users sharing the same spectrum at the
+same time, with low power consumption  thanks to the use of specific analogue/digital precoding
+techniques.
+
+The M5HESTIA project has two main objectives:
+
+\begin{itemize}
+	\item The first one consists in providing a precise and realistic model for the M­MIMO channel in the 60­GHz band. Indeed, most of already­ available theoretical results are based
+	on very simple or theoretical models that do not take into
+	account channel propagation and electronics specificities of very
+	high frequencies such as, for example, electromagnetic
+	coupling, power issues and other impairments. 
+
+	\item The second main objective is the
+		hardware(HW)implementation of a Massive-MIMO system
+		deployed at the base station (or AP) in a multi­user
+		context based on SDMA (spatial division multiple
+		access) technique. Indeed, the larger the number of
+		transmit antennas on infrastructure side,the larger the
+	number of users who can be simultaneously served in the same time-frequency slot.
+\end{itemize}
+	For this purpose,analogue and/or digital beamforming techniques
+	(implemented to improve link budgets at 60 GHz,one of the
+	most important critical points at these frequencies) and
+	digital precoding techniques (SVD decomposition,ZF, MMSE, time
+	reversal, conjugatebeamforming, etc.) will be studied and combined
+	(leading to a hybrid analogue and digital system).
+
+In particular, M5HESTIA project will optimise these  different
+analogue and digital processing techniques by using the
+proposed channel model and by taking  into account real antennas
+characteristics that will be also developed in the project.
+
+
+{\bf Description of the research project:} 
+The current offer is for working on
+the channel modeling task of the M5HESTIA project. 
+The main task will be to propose and implement a mmW M­MIMO channel model based on extensive channel
+measurements campaign realized during the project. The approach will be based on deterministic
+and/or quasi deterministic approaches aiming to produce test vector for PHY layer simulation. The
+effect of the environment on the channel angular structure and its coherence over time will be
+investigated. The impact of the diffused energy will also be investigated from the measurement data
+and depolarization estimation.
+
+
+The model should be able  to take as much as possible the effectof the base­band/RF architecture.
+The proposed channel model (or simulator) should allow addressing a wide range antenna
+specifications and architectures in order to figure out which is the best overall architecture for mmW.
+In particular this includes the antenna coupling effect and specification of the separation of baseband
+and RF functions number of baseband fluxes number of antennas,and switching or phasing network.
+The effect of the environment on the channel angular structure (in particular elevation spread) and its
+coherence over time will be investigated. ​
+The model should be scalable toward larger problems 
+(typically more antennas) while being validated over a smaller set of antennas from the measurement
+campaign performed during the project.
+The deterministic or quasi­ deterministic simulator will implement, jointly with channel simulations,
+the vehicular and human mobility in order to assess the effect on the overall system performance.
+The effects of flashing rays caused by the  blockage from subject and object  mobility will be
+investigated.
+
+{\bf Expected candidate Profile }: 
+
+Ph.D in propagation modeling or digital communications with a good
+proficiency in mathematics and statistics and computational implementation of channel models.
+Python language proficiency would be very appreciated.
+
+\begin{itemize}
+\item {\bf Location}:
+IETR­ UMR 6164­ Campus de Beaulieu Rennes­ France
+\item {\bf Expected start date}:
+April 2017 
+\item {\bf duration}: 18 months
+\item {\bf Salary}:
+     2000 Euros net/month
+\item {\bf Application}:
+Send a CV, a motivation letter and a recommendation letter
+to Pr Bernard UGUEN­
+bernard.uguen@univ­rennes1.fr
+,@BernardUguen
+\end{itemize}
+
+
+\end{newlfm}
+\end{document}
